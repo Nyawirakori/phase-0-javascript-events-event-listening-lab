@@ -5,6 +5,7 @@ function addingEventListener() {
 
     // Add an event listener to handle clicks
     input.addEventListener("click", function () {
-        alert("Button was clicked!");
+        alert("I was clicked!");
     });
 }
+console.log(addingEventListener());
